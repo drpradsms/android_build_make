@@ -32,7 +32,6 @@ PRODUCT_PACKAGES += \
     ExtServices \
     HTMLViewer \
     MediaProvider \
-    PackageInstaller \
     SecureElement \
     SettingsProvider \
     Shell \
