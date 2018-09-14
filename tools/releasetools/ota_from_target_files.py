@@ -825,16 +825,21 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   model = target_info.GetBuildProp("ro.product.model")
   build = target_info.GetBuildProp("ro.build.date")
 
-  script.Print("- Nitrogen Project ---------------------------");
-  script.Print("*  * *** *** **** **** **** *** *  *  **** ***");
-  script.Print("** *  *   *  *  * *  * *    *   ** *  *  * *");
-  script.Print("* **  *   *  **** *  * * ** *** * **  *  * ***");
-  script.Print("*  *  *   *  * *  *  * *  * *   *  *  *  *   *");
-  script.Print("*  * ***  *  * *  **** **** *** *  *  **** ***");
-  script.Print("- By xyyx -------------------- Android 9.0.0 -");
+
+  script.Print("______ ___   __     _   _        _____ _____ ");
+  script.Print("| ___ (_\ \ / /    | \ | |      |  _  /  ___|");
+  script.Print("| |_/ /_ \ V /  ___|  \| |______| | | \ `--. ");
+  script.Print("|  __/| |/   \ / _ | . ` |______| | | |`--. \ ");
+  script.Print("| |   | / /^\ |  __| |\  |      \ \_/ /\__/ / ");
+  script.Print("\_|   |_\/   \/\___\_| \_/       \___/\____/ ");
+  script.Print("                                             ");
+  script.Print("------------Android 9.0.0--------------------");
+
+  script.Print("- -----------By drpradsms------------------- -");
   script.Print(" Compiled: %s "%(build));
   script.Print(" For: %s   "%(model));
   script.Print("----------------------------------------------");
+
 
   script.ShowProgress(system_progress, 0)
 
